@@ -1,5 +1,4 @@
 ﻿using Avalonia;
-using Avalonia.Logging.Serilog;
 using Avalonia.ReactiveUI;
 using ReactiveUI;
 using RoutingExample.ViewModels;
@@ -27,7 +26,7 @@ namespace RoutingExample
             return AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .UseReactiveUI()
-                .LogToDebug();
+                .LogToTrace();
         }
     }
 }

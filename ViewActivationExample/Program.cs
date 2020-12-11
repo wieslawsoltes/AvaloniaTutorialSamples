@@ -1,5 +1,4 @@
 ﻿using Avalonia;
-using Avalonia.Logging.Serilog;
 using Avalonia.ReactiveUI;
 
 namespace ViewActivationExample
@@ -17,6 +16,6 @@ namespace ViewActivationExample
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
                 .UseReactiveUI()
-                .LogToDebug();
+                .LogToTrace();
     }
 }
