@@ -9,9 +9,4 @@
     <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0-rc1" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.0-rc1" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Update="View.axaml.cs">
-      <DependentUpon>View.axaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
 </Project>
